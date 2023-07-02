@@ -1,10 +1,12 @@
+ sudo su (before entering ns-allinone-3.35)
  cd ns-allinone-3.35
  cd ns-3.35
  cd scratch
- gedit firstone.cc
+ gedit <program_name>.cc
  cd ..
  ./waf
  ./waf --run scratch/firstone./ns3
  cd ..
  cd netanim-3.108
+ export QT_X11_NO_MITSHM=1 
  ./NetAnim
